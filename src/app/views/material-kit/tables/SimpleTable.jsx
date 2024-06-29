@@ -19,7 +19,7 @@ const StyledTable = styled(Table)(() => ({
   }
 }));
 
-const marketplaces = ['Yandex Market', 'Sber Market', 'Ozon', 'Aliexpress', 'Wilberries']
+const marketplaces = ['Яндекс Маркет', 'СберМаркет', 'OZON', 'Aliexpress', 'Wildberries']
 
 export default function SimpleTable({subscribarList}) {
   return (
