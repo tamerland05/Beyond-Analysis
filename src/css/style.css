@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+iframe#webpack-dev-server-client-overlay {
+  display: none !important;
+}
+
+.lineChart {
+  margin: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px 0px #a8a7a7;
+}
+.textLineChart {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  margin: 10px 10px 10px 0px;
+}
+.legendAllDays{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    margin: 10px 10px 10px 0px;
+}
+
+.salePieMarket{
+    margin: 100px;
+}
