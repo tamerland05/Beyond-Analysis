@@ -42,7 +42,7 @@ export default function Analytics() {
     ]);
 
     const getAnalytics = async () => {
-        const response = await axios.get('http://127.0.0.1:8080/dashboard', {
+        const response = await axios.get('http://85.92.110.137:8080/dashboard', {
             params: {
                 analytics_time_type: period,
                 marketplace: marketplaces,

@@ -22,7 +22,7 @@ export default function AppEchart() {
     const [saleInDay, setSaleInDay] = useState([]);
 
     const getAnalytics = async () => {
-        const response = await axios.get('http://127.0.0.1:8080/charts')
+        const response = await axios.get('http://85.92.110.137:8080/charts')
         if (response.status === 200 && response.data) {
             const data = response.data
             console.log(data.sales_by_date)

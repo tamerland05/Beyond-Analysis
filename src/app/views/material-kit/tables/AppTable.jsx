@@ -18,7 +18,7 @@ export default function AppTable() {
   const [subscribarList, setSubscribarList] = useState([]);
 
   const getStorage = async () => {
-    const response = await axios.get('http://127.0.0.1:8080/storage')
+    const response = await axios.get('http://85.92.110.137:8080/storage')
 
     if (response.status === 200 && response.data && !response.data.error) {
       const data = response.data
